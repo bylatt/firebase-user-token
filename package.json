@@ -1,0 +1,17 @@
+{
+  "name": "firebase-user-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fuk": "./bin/fuk.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "yargs": "^17.4.0"
+  }
+}
