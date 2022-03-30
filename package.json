@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "fuk": "./bin/fuk.js"
+    "futk": "./bin/futk.js"
   },
   "keywords": [],
   "author": "",
