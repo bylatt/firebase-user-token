@@ -18,11 +18,11 @@ async function createUserToken(auth, apiKey, uid) {
 
 async function getUser(auth, uid, email, phoneNumber) {
   if (uid) {
-    return admin.auth().getUser(uid);
+    return auth.getUser(uid);
   } else if (email) {
-    return admin.auth().getUserByEmail(email);
+    return auth.getUserByEmail(email);
   } else if (phoneNumber) {
-    return admin.auth().getUserByPhoneNumber(phoneNumber);
+    return auth.getUserByPhoneNumber(phoneNumber);
   }
 }
 
