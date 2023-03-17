@@ -1,10 +1,10 @@
 {
   "name": "firebase-user-token",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "futk": "./bin/futk.js"
+    "futk": "./bin/futk"
   },
   "keywords": [],
   "author": "",

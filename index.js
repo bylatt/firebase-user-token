@@ -50,7 +50,7 @@ async function getToken(options) {
   const auth = app.auth();
   const user = await getUser(auth, uid, email, phoneNumber);
   const token = await createUserToken(auth, apiKey, user.uid);
-  return token;
+  return { user: user.toJSON(), token };
 }
 
 module.exports = { getUser, createUserToken, getToken };
