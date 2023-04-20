@@ -45,11 +45,15 @@ async function main() {
     switch (output) {
       case "token":
         console.log(token);
-        clipboard.setText(token);
+        if (copy) {
+          clipboard.setText(token);
+        }
         break;
       case "user":
         console.log(user);
-        clipboard.setText(JSON.stringify(user));
+        if (copy) {
+          clipboard.setText(JSON.stringify(user));
+        }
         break;
       default:
         console.log("Error: invalid output");
